@@ -56,8 +56,11 @@ function executarTestes() {
     ul2.appendChild(li);
 
     // Mudar a cor da letra do elemento p - utilizando a propriedade style
-    document.getElementsByTagName("p")[0].style = color("red");
+    let cor = document.getElementsByTagName("p")[0];
+    cor.style.color = "red";
 
-    style.getElementsByTagName("p")[0].value = color("red");
     // Mudar a cor de fundo do formulario - utilizando a propriedade style
+    let corFundo = document.getElementById("form");
+    corFundo.style.backgroundColor = "blue"
+
 }
