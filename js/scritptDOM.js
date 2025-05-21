@@ -63,4 +63,11 @@ function executarTestes() {
     let corFundo = document.getElementById("form");
     corFundo.style.backgroundColor = "blue"
 
+    // document.querySelector("p, .class, #id") pega o primeiro item que possui o item, seja tag. class ou id
+    
+    //              document.querySelector("tag  .class  #id");
+
+    // document.querySelectorAll("p, .class, #id") pega um arrey dos itens, resumindo, pega tudo relacionado ao itens, seja tag, class ou id, e id n deve haver mais de um no cod
+
+    //              document.querySelectorAll("tag  .class  #id");
 }
